@@ -11,6 +11,11 @@
 		78FAEF1027169C7D00511178 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FAEF0F27169C7D00511178 /* ContentView.swift */; };
 		78FAEF1227169C7F00511178 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78FAEF1127169C7F00511178 /* Assets.xcassets */; };
 		78FAEF1527169C7F00511178 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78FAEF1427169C7F00511178 /* Preview Assets.xcassets */; };
+		78FAEF1C2717FC0800511178 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FAEF1B2717FC0800511178 /* CircleImage.swift */; };
+		78FAEF1E271800EC00511178 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FAEF1D271800EC00511178 /* MapView.swift */; };
+		78FAEF8D27180CC000511178 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 78FAEF8C27180CC000511178 /* landmarkData.json */; };
+		78FAEF8F27180CE000511178 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FAEF8E27180CE000511178 /* Landmark.swift */; };
+		78FAEF912718108B00511178 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FAEF902718108B00511178 /* ModelData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		78FAEF0F27169C7D00511178 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		78FAEF1127169C7F00511178 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78FAEF1427169C7F00511178 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		78FAEF1B2717FC0800511178 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		78FAEF1D271800EC00511178 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		78FAEF8C27180CC000511178 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		78FAEF8E27180CE000511178 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		78FAEF902718108B00511178 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +45,7 @@
 		78FAEF0127169C7D00511178 = {
 			isa = PBXGroup;
 			children = (
+				78FAEF8E27180CE000511178 /* Landmark.swift */,
 				78FAEF0C27169C7D00511178 /* MyFirstApp */,
 				78FAEF0B27169C7D00511178 /* Products */,
 			);
@@ -51,9 +62,13 @@
 		78FAEF0C27169C7D00511178 /* MyFirstApp */ = {
 			isa = PBXGroup;
 			children = (
+				78FAEF8C27180CC000511178 /* landmarkData.json */,
 				78FAEF0D27169C7D00511178 /* MyFirstAppApp.swift */,
 				78FAEF0F27169C7D00511178 /* ContentView.swift */,
+				78FAEF902718108B00511178 /* ModelData.swift */,
 				78FAEF1127169C7F00511178 /* Assets.xcassets */,
+				78FAEF1B2717FC0800511178 /* CircleImage.swift */,
+				78FAEF1D271800EC00511178 /* MapView.swift */,
 				78FAEF1327169C7F00511178 /* Preview Content */,
 			);
 			path = MyFirstApp;
@@ -127,6 +142,7 @@
 			files = (
 				78FAEF1527169C7F00511178 /* Preview Assets.xcassets in Resources */,
 				78FAEF1227169C7F00511178 /* Assets.xcassets in Resources */,
+				78FAEF8D27180CC000511178 /* landmarkData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +154,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				78FAEF1027169C7D00511178 /* ContentView.swift in Sources */,
+				78FAEF1E271800EC00511178 /* MapView.swift in Sources */,
 				78FAEF0E27169C7D00511178 /* MyFirstAppApp.swift in Sources */,
+				78FAEF1C2717FC0800511178 /* CircleImage.swift in Sources */,
+				78FAEF8F27180CE000511178 /* Landmark.swift in Sources */,
+				78FAEF912718108B00511178 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +294,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -303,6 +324,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
