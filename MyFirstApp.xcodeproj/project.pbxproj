@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78154C542722A576000D9841 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78154C532722A576000D9841 /* LandmarkList.swift */; };
+		78154C562722A852000D9841 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78154C552722A852000D9841 /* LandmarkDetail.swift */; };
 		78FAEF0E27169C7D00511178 /* MyFirstAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FAEF0D27169C7D00511178 /* MyFirstAppApp.swift */; };
 		78FAEF1027169C7D00511178 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FAEF0F27169C7D00511178 /* ContentView.swift */; };
 		78FAEF1227169C7F00511178 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78FAEF1127169C7F00511178 /* Assets.xcassets */; };
@@ -16,9 +18,12 @@
 		78FAEF8D27180CC000511178 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 78FAEF8C27180CC000511178 /* landmarkData.json */; };
 		78FAEF8F27180CE000511178 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FAEF8E27180CE000511178 /* Landmark.swift */; };
 		78FAEF912718108B00511178 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FAEF902718108B00511178 /* ModelData.swift */; };
+		78FAEF962718155900511178 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FAEF952718155900511178 /* LandmarkRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		78154C532722A576000D9841 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		78154C552722A852000D9841 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		78FAEF0A27169C7D00511178 /* MyFirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78FAEF0D27169C7D00511178 /* MyFirstAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstAppApp.swift; sourceTree = "<group>"; };
 		78FAEF0F27169C7D00511178 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -29,6 +34,7 @@
 		78FAEF8C27180CC000511178 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 		78FAEF8E27180CE000511178 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		78FAEF902718108B00511178 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		78FAEF952718155900511178 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,9 @@
 				78FAEF1D271800EC00511178 /* MapView.swift */,
 				78FAEF1B2717FC0800511178 /* CircleImage.swift */,
 				78FAEF0F27169C7D00511178 /* ContentView.swift */,
+				78FAEF952718155900511178 /* LandmarkRow.swift */,
+				78154C532722A576000D9841 /* LandmarkList.swift */,
+				78154C552722A852000D9841 /* LandmarkDetail.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -180,8 +189,11 @@
 				78FAEF1027169C7D00511178 /* ContentView.swift in Sources */,
 				78FAEF1E271800EC00511178 /* MapView.swift in Sources */,
 				78FAEF0E27169C7D00511178 /* MyFirstAppApp.swift in Sources */,
+				78154C542722A576000D9841 /* LandmarkList.swift in Sources */,
+				78154C562722A852000D9841 /* LandmarkDetail.swift in Sources */,
 				78FAEF1C2717FC0800511178 /* CircleImage.swift in Sources */,
 				78FAEF8F27180CE000511178 /* Landmark.swift in Sources */,
+				78FAEF962718155900511178 /* LandmarkRow.swift in Sources */,
 				78FAEF912718108B00511178 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
